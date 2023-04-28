@@ -4,7 +4,7 @@ this app shows list of heroes and by clicking on anyone of them it redirect us t
 
 
 ![](screenshots/1.png)
-![](screenshots/2.png)
+
 ![](screenshots/3.png)
 ![](screenshots/4.png)
 ![](screenshots/5.png)
