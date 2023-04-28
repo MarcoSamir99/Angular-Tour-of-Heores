@@ -1,0 +1,12 @@
+<h2>Hero List</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <button [class.selected]="hero === selectedHero" type="button" (click)="onSelected(hero)" routerLink="/detail/{{hero.id}}">   <!-- </li>//class.selected means that we will add selected class if ....... --> 
+      <span class="badge">{{hero.id}}</span>
+      <span class="name">{{hero.name}}</span>
+    </button>
+</ul>
+
+<!-- <app-hero-detail [hero]="selectedHero"></app-hero-detail>  
+--we will pass selectedHero to it with the name of hero -->
+
